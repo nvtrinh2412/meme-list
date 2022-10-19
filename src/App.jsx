@@ -4,7 +4,7 @@ import { Button, Image } from 'react-bootstrap';
 import axios from 'axios';
 
 const API_RESOURCE = 'https://api.imgflip.com/get_memes';
-const MEME_PER_LOADING = 40;
+const MEME_PER_LOADING = 9;
 const MAX_MEMES = 100;
 const App = () => {
     const [memes, setMemes] = useState([]);
@@ -23,12 +23,13 @@ const App = () => {
     }, []);
 
     const handleLoadingMeme = () => {
-        //get first 10 memes
+        setLoading(true);
         const newTotalMemes = totalMemes + MEME_PER_LOADING;
         setTotalMemes(newTotalMemes);
         const newDisplayMemeList = memes.slice(0, totalMemes);
         setIsMore(newDisplayMemeList.length < MAX_MEMES);
         setDisplayMeme(newDisplayMemeList);
+        setLoading(false);
     };
     return (
         <div className="app">
