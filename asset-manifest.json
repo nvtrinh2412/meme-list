@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.deb028bc.css",
-    "main.js": "/static/js/main.b43adafc.js",
-    "index.html": "/index.html",
-    "main.deb028bc.css.map": "/static/css/main.deb028bc.css.map",
-    "main.b43adafc.js.map": "/static/js/main.b43adafc.js.map"
+    "main.css": "/meme-list/static/css/main.deb028bc.css",
+    "main.js": "/meme-list/static/js/main.b43adafc.js",
+    "index.html": "/meme-list/index.html",
+    "main.deb028bc.css.map": "/meme-list/static/css/main.deb028bc.css.map",
+    "main.b43adafc.js.map": "/meme-list/static/js/main.b43adafc.js.map"
   },
   "entrypoints": [
     "static/css/main.deb028bc.css",
