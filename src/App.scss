@@ -1,0 +1,40 @@
+@import "bootstrap/dist/css/bootstrap.css";
+
+.app {
+  padding: 0 2rem;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 6rem;
+  }
+
+  &__click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30rem;
+    position: relative;
+    &-image {
+      width: 30rem;
+      height: 100%;
+    }
+    &-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+  }
+  &__memes-list {
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, auto));
+    grid-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
