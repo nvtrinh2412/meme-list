@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/meme-list/static/css/main.deb028bc.css",
-    "main.js": "/meme-list/static/js/main.b43adafc.js",
+    "main.js": "/meme-list/static/js/main.0ab50085.js",
     "index.html": "/meme-list/index.html",
     "main.deb028bc.css.map": "/meme-list/static/css/main.deb028bc.css.map",
-    "main.b43adafc.js.map": "/meme-list/static/js/main.b43adafc.js.map"
+    "main.0ab50085.js.map": "/meme-list/static/js/main.0ab50085.js.map"
   },
   "entrypoints": [
     "static/css/main.deb028bc.css",
-    "static/js/main.b43adafc.js"
+    "static/js/main.0ab50085.js"
   ]
 }
